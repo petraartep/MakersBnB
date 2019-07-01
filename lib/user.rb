@@ -1,4 +1,4 @@
-require 'data-mapper'
+require 'data_mapper'
 require 'dm-core'
 require 'dm-timestamps'
 
