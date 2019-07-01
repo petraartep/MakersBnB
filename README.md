@@ -18,27 +18,27 @@
 
 |   |Test & Development |
 |----- | -------:|
-| ![ruby](https://user-images.githubusercontent.com/23095774/60453518-4400b500-9c29-11e9-8057-d1350988a009.png) |Ruby |
-| ![sinatra](https://user-images.githubusercontent.com/23095774/60453519-4400b500-9c29-11e9-9607-7055ee8d4c02.png) |Sinatra |
+|<a href='https://user-images.githubusercontent.com/23095774/60453518-4400b500-9c29-11e9-8057-d1350988a009.png' width='40'></a> |Ruby |
+|<a href='https://user-images.githubusercontent.com/23095774/60453519-4400b500-9c29-11e9-9607-7055ee8d4c02.png' width='40'></a> |Sinatra |
 | logo |DataMapper
 | logo |DataCleaner | 
-| ![postgres](https://user-images.githubusercontent.com/23095774/60453516-4400b500-9c29-11e9-8bf3-54ba3df01a8d.png) |PostGres |
-| ![rspec](https://user-images.githubusercontent.com/23095774/60453517-4400b500-9c29-11e9-87e5-904cb52eb052.png) |RSpec |
+|<a href='https://user-images.githubusercontent.com/23095774/60453516-4400b500-9c29-11e9-8bf3-54ba3df01a8d.png' width='40'></a> |PostGres |
+|<a href='https://user-images.githubusercontent.com/23095774/60453517-4400b500-9c29-11e9-87e5-904cb52eb052.png' width='40'></a> |RSpec |
 | logo |Capybara |                
   
 **Frontend**  
 
 |   |Test & Development |
 |----- | -------:|
-| ![html](https://user-images.githubusercontent.com/23095774/60453566-65fa3780-9c29-11e9-99d6-5f4e55dcbf17.png) |HTML |
-| ![css](https://user-images.githubusercontent.com/23095774/60453511-43681e80-9c29-11e9-874a-e9d56cc646bf.png) |CSS |
-| ![javascript](https://user-images.githubusercontent.com/23095774/60453515-43681e80-9c29-11e9-98c9-601763345265.png) |Javascript |  
+|<a href='https://user-images.githubusercontent.com/23095774/60453566-65fa3780-9c29-11e9-99d6-5f4e55dcbf17.png' width='40'></a> |HTML |
+|<a href='https://user-images.githubusercontent.com/23095774/60453511-43681e80-9c29-11e9-874a-e9d56cc646bf.png 'width='40'></a> |CSS |
+|<a href='https://user-images.githubusercontent.com/23095774/60453515-43681e80-9c29-11e9-98c9-601763345265.png' width='40'></a> |Javascript |  
 
 **Production**  
 
 |   |Production |
 |----- | -------:|
-| ![heroku](https://user-images.githubusercontent.com/23095774/60453513-43681e80-9c29-11e9-83fe-34825b1892ff.png) |Heroku |
+|<a href='https://user-images.githubusercontent.com/23095774/60453513-43681e80-9c29-11e9-83fe-34825b1892ff.png' width='40'></a> |Heroku |
 
 
 ---   
