@@ -16,29 +16,29 @@
 
 **Backend**
 
-| x |Test & Development |
+|   |Test & Development |
 |----- | -------:|
-| logo |Ruby |
-| logo |Sinatra |
+| ![ruby](https://user-images.githubusercontent.com/23095774/60453518-4400b500-9c29-11e9-8057-d1350988a009.png) |Ruby |
+| ![sinatra](https://user-images.githubusercontent.com/23095774/60453519-4400b500-9c29-11e9-9607-7055ee8d4c02.png) |Sinatra |
 | logo |DataMapper
 | logo |DataCleaner | 
-| logo |PostGres |
-| logo |RSpec |
+| ![postgres](https://user-images.githubusercontent.com/23095774/60453516-4400b500-9c29-11e9-8bf3-54ba3df01a8d.png) |PostGres |
+| ![rspec](https://user-images.githubusercontent.com/23095774/60453517-4400b500-9c29-11e9-87e5-904cb52eb052.png) |RSpec |
 | logo |Capybara |                
   
 **Frontend**  
 
-| x |Test & Development |
+|   |Test & Development |
 |----- | -------:|
-| logo |HTML |
-| logo |CSS |
-| logo |Javascript |  
+| ![html](https://user-images.githubusercontent.com/23095774/60453566-65fa3780-9c29-11e9-99d6-5f4e55dcbf17.png) |HTML |
+| ![css](https://user-images.githubusercontent.com/23095774/60453511-43681e80-9c29-11e9-874a-e9d56cc646bf.png) |CSS |
+| ![javascript](https://user-images.githubusercontent.com/23095774/60453515-43681e80-9c29-11e9-98c9-601763345265.png) |Javascript |  
 
 **Production**  
 
-| x |Production |
+|   |Production |
 |----- | -------:|
-| logo |Heroku |
+| ![heroku](https://user-images.githubusercontent.com/23095774/60453513-43681e80-9c29-11e9-83fe-34825b1892ff.png) |Heroku |
 
 
 ---   
