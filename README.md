@@ -7,7 +7,7 @@
 
 | Alexis |  Celia | Lucy | Petra | 
 | :-----: | :-------:   | :------:  |:-------: |
-|<a href='https://github.com/ajosephides'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a> |<a href='https://github.com/celfro'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/LucyMHall'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/petraartep'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a 
+|<a href='https://github.com/ajosephides'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/celfro'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/LucyMHall'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/petraartep'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a 
 
 ---
 
@@ -18,27 +18,27 @@
 
 |   |Test & Development |
 |----- | -------:|
-|<a href='https://user-images.githubusercontent.com/23095774/60453518-4400b500-9c29-11e9-8057-d1350988a009.png' width='40'></a> |Ruby |
-|<a href='https://user-images.githubusercontent.com/23095774/60453519-4400b500-9c29-11e9-9607-7055ee8d4c02.png' width='40'></a> |Sinatra |
+|<img src='https://user-images.githubusercontent.com/23095774/60453518-4400b500-9c29-11e9-8057-d1350988a009.png' width='40'> |Ruby |
+|<img src='https://user-images.githubusercontent.com/23095774/60453519-4400b500-9c29-11e9-9607-7055ee8d4c02.png' width='40'> |Sinatra |
 | logo |DataMapper
 | logo |DataCleaner | 
-|<a href='https://user-images.githubusercontent.com/23095774/60453516-4400b500-9c29-11e9-8bf3-54ba3df01a8d.png' width='40'></a> |PostGres |
-|<a href='https://user-images.githubusercontent.com/23095774/60453517-4400b500-9c29-11e9-87e5-904cb52eb052.png' width='40'></a> |RSpec |
+|<img src='https://user-images.githubusercontent.com/23095774/60453516-4400b500-9c29-11e9-8bf3-54ba3df01a8d.png' width='40'> |PostGres |
+|<img src='https://user-images.githubusercontent.com/23095774/60453517-4400b500-9c29-11e9-87e5-904cb52eb052.png' width='40'> |RSpec |
 | logo |Capybara |                
   
 **Frontend**  
 
 |   |Test & Development |
 |----- | -------:|
-|<a href='https://user-images.githubusercontent.com/23095774/60453566-65fa3780-9c29-11e9-99d6-5f4e55dcbf17.png' width='40'></a> |HTML |
-|<a href='https://user-images.githubusercontent.com/23095774/60453511-43681e80-9c29-11e9-874a-e9d56cc646bf.png 'width='40'></a> |CSS |
-|<a href='https://user-images.githubusercontent.com/23095774/60453515-43681e80-9c29-11e9-98c9-601763345265.png' width='40'></a> |Javascript |  
+|<img src='https://user-images.githubusercontent.com/23095774/60453566-65fa3780-9c29-11e9-99d6-5f4e55dcbf17.png' width='40'> |HTML |
+|<img src='https://user-images.githubusercontent.com/23095774/60453511-43681e80-9c29-11e9-874a-e9d56cc646bf.png 'width='40'> |CSS |
+|<img src='https://user-images.githubusercontent.com/23095774/60453515-43681e80-9c29-11e9-98c9-601763345265.png' width='40'> |Javascript |  
 
 **Production**  
 
 |   |Production |
 |----- | -------:|
-|<a href='https://user-images.githubusercontent.com/23095774/60453513-43681e80-9c29-11e9-83fe-34825b1892ff.png' width='40'></a> |Heroku |
+|<img src='https://user-images.githubusercontent.com/23095774/60453513-43681e80-9c29-11e9-83fe-34825b1892ff.png' width='40'> |Heroku |
 
 
 ---   
