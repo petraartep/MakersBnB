@@ -97,8 +97,8 @@ I need to be able to see only available and pending spaces
 |.sign_up |  
 |.log_in |
 |.create_space | space
-|.request | space
-|.confirm | space 
+|.request | booking
+|.confirm | booking
 
 
 **Space**   
@@ -107,12 +107,12 @@ I need to be able to see only available and pending spaces
 | ----- | -------:   | 
 |.create(name) |  
 |.add_details(type, info)|
-|.change_status(date, status) | calendar
+|.change_status(date, status) | booking
 |.list(optional_filter) e.g available, pending, date | calendar
 |.confirm | space 
 
 
-**Calendar**
+**Booking**
 
 | Responsibility |  Collaborator | 
 | ----- | -------:   | 
@@ -121,4 +121,12 @@ I need to be able to see only available and pending spaces
 
 
 ----
+
+MVP
+---
+- Full app user flow of different pages (as per mock up)
+- no javascript
+- no real styling
+- only running in test and dev databases
+- no encryption / authentication on login
 
