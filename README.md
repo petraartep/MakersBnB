@@ -31,7 +31,7 @@
 |   |Test & Development |
 |----- | -------:|
 |<img src='https://user-images.githubusercontent.com/23095774/60453566-65fa3780-9c29-11e9-99d6-5f4e55dcbf17.png' width='40'> |HTML |
-|<img src='https://user-images.githubusercontent.com/23095774/60453511-43681e80-9c29-11e9-874a-e9d56cc646bf.png 'width='40'> |CSS |
+|<img src='https://user-images.githubusercontent.com/23095774/60453511-43681e80-9c29-11e9-874a-e9d56cc646bf.png' width='40'> |CSS |
 |<img src='https://user-images.githubusercontent.com/23095774/60453515-43681e80-9c29-11e9-98c9-601763345265.png' width='40'> |Javascript |  
 
 **Production**  
