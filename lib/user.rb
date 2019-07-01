@@ -10,6 +10,6 @@ class User
   property :password, String
   property :name, String
 
-  has n, :booking
-  has n, :space
+  has n, :bookings
+  has n, :spaces
 end
