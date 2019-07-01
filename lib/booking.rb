@@ -1,9 +1,10 @@
-require 'data-mapper'
+require 'data_mapper'
 require 'dm-core'
 require 'dm-timestamps'
 
 class Booking
-  include Datamapper::Resource
+  include DataMapper::Resource
+  
   property :id, Serial
   property :date, DateTime
   property :status, String
