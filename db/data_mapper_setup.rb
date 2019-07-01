@@ -4,7 +4,7 @@ require 'dm-postgres-adapter'
 # this app name will be the prefix to the database
 APP_NAME = 'makers_bnb'
 
-require_relative '/lib/booking.rb'
+require_relative '../lib/booking.rb'
 #todo - add model files here
 
 
