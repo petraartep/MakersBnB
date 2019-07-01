@@ -11,6 +11,35 @@
 
 ---
 
+
+## Tech Stack      
+
+**Backend**
+| x |Test & Development
+|:-----: | -------:|
+| logo |Ruby |
+| logo |Sinatra |
+| logo |DataMapper
+| logo |DataCleaner | 
+| logo |PostGres |
+| logo |RSpec |
+| logo |Capybara |                
+  
+**Frontend**  
+| x |Test & Development
+|:-----: | -------:|
+| logo |HTML |
+| logo |CSS |
+| logo |Javascript |  
+
+**Production**  
+| x |Production
+|:-----: | -------:|
+| logo |Heroku |
+
+
+---   
+
 ## User Stories
 
 ```
