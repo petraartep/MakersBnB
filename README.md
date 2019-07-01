@@ -20,11 +20,11 @@
 |----- | -------:|
 |<img src='https://user-images.githubusercontent.com/23095774/60453518-4400b500-9c29-11e9-8057-d1350988a009.png' width='40'> |Ruby |
 |<img src='https://user-images.githubusercontent.com/23095774/60453519-4400b500-9c29-11e9-9607-7055ee8d4c02.png' width='40'> |Sinatra |
-| logo |DataMapper
-| logo |DataCleaner | 
+|<img src='https://user-images.githubusercontent.com/23095774/60455512-7660e100-9c2e-11e9-826c-785c83b16235.gif' width='40'>|DataMapper
+|<img src='https://user-images.githubusercontent.com/23095774/60455503-719c2d00-9c2e-11e9-9352-086cd72cf11f.png' width='40'>|DataCleaner | 
 |<img src='https://user-images.githubusercontent.com/23095774/60453516-4400b500-9c29-11e9-8bf3-54ba3df01a8d.png' width='40'> |PostGres |
 |<img src='https://user-images.githubusercontent.com/23095774/60453517-4400b500-9c29-11e9-87e5-904cb52eb052.png' width='40'> |RSpec |
-| logo |Capybara |                
+|<img src='https://user-images.githubusercontent.com/23095774/60455502-71039680-9c2e-11e9-9d01-08f0a3f68637.png' width='40'>|Capybara |                
   
 **Frontend**  
 
