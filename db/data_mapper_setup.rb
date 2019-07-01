@@ -1,7 +1,9 @@
 require 'data_mapper'
 require 'dm-postgres-adapter'
 
+
 require_relative '../lib/space.rb'
+require_relative '../lib/user.rb'
 
 # this app name will be the prefix to the database
 APP_NAME = 'makers_bnb'
@@ -11,7 +13,7 @@ APP_NAME = 'makers_bnb'
 
 DataMapper.setup(:default, ENV['DATABASE_URL'] || "postgres://localhost/#{APP_NAME}_#{ENV['RACK_ENV']}")
 
-#This checks the models for validity and initializes all properties associated with relationships. 
+#This checks the models for validity and initializes all properties associated with relationships.
 DataMapper.finalize
 
 #create tables if they don't exist
