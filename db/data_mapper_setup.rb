@@ -3,6 +3,8 @@ require 'dm-postgres-adapter'
 
 require_relative '../lib/user.rb'
 
+require_relative '../lib/space.rb'
+
 # this app name will be the prefix to the database
 APP_NAME = 'makers_bnb'
 
