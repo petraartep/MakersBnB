@@ -65,7 +65,7 @@ I need to be able to see only available and pending spaces
 |.sign_up |  
 |.log_in |
 |.create_space | space
-|request | space
+|.request | space
 |.confirm | space 
 
 
