@@ -2,6 +2,7 @@
 
 ## User Stories
 
+```
 As a user
 So that I can access MakersBnB
 I need to be able to sign up
@@ -39,6 +40,6 @@ I need to be able to search for specific dates
 As a user renting a property 
 So that I can not waste my time looking at booked properties 
 I need to be able to see only available and pending spaces
-
+```
 
 ## CRC Cards
