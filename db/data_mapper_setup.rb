@@ -7,7 +7,6 @@ APP_NAME = 'makers_bnb'
 require_relative '../lib/booking.rb'
 require_relative '../lib/user.rb'
 require_relative '../lib/space.rb'
-#todo - add model files here
 
 
 DataMapper.setup(:default, ENV['DATABASE_URL'] || "postgres://localhost/#{APP_NAME}_#{ENV['RACK_ENV']}")
