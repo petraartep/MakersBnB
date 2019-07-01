@@ -7,6 +7,7 @@ class Booking
   property :id, Serial
   property :date, DateTime
   property :status, String
+  
   belongs_to :user
   belongs_to :space
 end
