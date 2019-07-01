@@ -6,7 +6,7 @@
 ## Team
 
 | Alexis |  Celia | Lucy | Petra | 
-| :----- | :-------:   | :------:  |:-------: |
+| :-----: | :-------:   | :------:  |:-------: |
 |<a href='https://github.com/ajosephides'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a> |<a href='https://github.com/celfro'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/LucyMHall'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/petraartep'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a 
 
 ---
@@ -59,8 +59,9 @@ I need to be able to see only available and pending spaces
 
 
 **User**
+
 | Responsibility |  Collaborator | 
-| :----- | :-------:   | 
+|----- | -------:   | 
 |.sign_up |  
 |.log_in |
 |.create_space | space
@@ -69,8 +70,9 @@ I need to be able to see only available and pending spaces
 
 
 **Space**   
+
 | Responsibility |  Collaborator | 
-| :----- | :-------:   | 
+| ----- | -------:   | 
 |.create(name) |  
 |.add_details(type, info)|
 |.change_status(date, status) | calendar
@@ -79,8 +81,9 @@ I need to be able to see only available and pending spaces
 
 
 **Calendar**
+
 | Responsibility |  Collaborator | 
-| :----- | :-------:   | 
+| ----- | -------:   | 
 |.view |  
 |.change_status(date) |
 
