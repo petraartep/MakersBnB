@@ -57,31 +57,34 @@ I need to be able to see only available and pending spaces
 
 ## CRC Cards
 
-**User** 
-| Responsibility | Collaborator |
-| :----- | :-------: |
-| .sign_up | 
-| .log_in | 
-| .create_space | space
-| .request | space
-| .confirm | space
+
+
+**User**
+|Responsibily \| Collaborator | 
+ | :------:  | :-------:      |
+|.sign_up \|                  |
+|.log_in \|                   | 
+|.create_space \| space       |
+|.request \| space            |
+|.confirm \| space            |
 
 
 
-**Space**
-| Responsibility | Collaborator |
-| :----- | :-------: |
-| .create(name) |
-| .add_details(type, info) |
-| .change_status(date, status) | calendar
-| .list(optional_filter) e.g available, pending, date | calendar
+**Space**                                                   
+|Responsibily \| Collaborator                                     | 
+ | :------:  | :-------:                                          |
+| .create(name) \|                                                |
+| .add_details(type, info) \|                                     |
+| .change_status(date, status) \| calendar                        |
+| .list(optional_filter) e.g available, pending, date \| calendar |   
+
 
 
 **Calendar**
-| Responsibility | Collaborator |
-| :----- | :-------: |
-| .view |
-| .change_status(date) |
+|Responsibily \| Collaborator   |
+| :------:  | :-------:         | 
+| .view \|                      |
+| .change_status(date) \|       |
 
 
 
