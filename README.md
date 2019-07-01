@@ -15,8 +15,9 @@
 ## Tech Stack      
 
 **Backend**
-| x |Test & Development
-|:-----: | -------:|
+
+| x |Test & Development |
+|----- | -------:|
 | logo |Ruby |
 | logo |Sinatra |
 | logo |DataMapper
@@ -26,15 +27,17 @@
 | logo |Capybara |                
   
 **Frontend**  
-| x |Test & Development
-|:-----: | -------:|
+
+| x |Test & Development |
+|----- | -------:|
 | logo |HTML |
 | logo |CSS |
 | logo |Javascript |  
 
 **Production**  
-| x |Production
-|:-----: | -------:|
+
+| x |Production |
+|----- | -------:|
 | logo |Heroku |
 
 
