@@ -10,17 +10,27 @@ require_relative '../db/data_mapper_setup'
 class MakersBnB < Sinatra::Base
 
   get '/' do
+    user = User.create(
+      name: 'Jack',
+      email: 'jd@chitter.com',
+      password: 'shhhh'
+    )
     erb :index
   end
 
-  get  '/user/:id/space/new' do
-    @user_id = :id
+  get  '/user/:user_id/space/new' do
+    @user = User.get(params[:user_id])
+    p @user
+    @user_id = params[:user_id]
     erb :"/space/new"
   end
 
-  post '/user/:id/space/new' do
-    user = User.get(params[:id])
-    user.space.create(name: params[:name],
+  post '/user/:user_id/space/new' do
+    p params[:user_id]
+    p "made it to this page"
+
+    user = User.get(params[:user_id])
+    user.spaces.create(name: params[:name],
                       description: params[:description],
                       price: params[:price],
                       available_from: params[:available_from],
@@ -29,12 +39,12 @@ class MakersBnB < Sinatra::Base
   end
 
 
-  get 'user/:id/space/' do
-    @user = User.get(params[:id])
+  get '/user/:user_id/space' do
+    p params[:user_id]
+
+    @user = User.get(params[:user_id])
     erb :"/space/user_space"    
   end
-
-
 
 
 

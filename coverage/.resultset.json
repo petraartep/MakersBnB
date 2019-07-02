@@ -1,16 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/petra/Google Drive/projects/MakersBnB/spec/features/create_space_feature_spec.rb": [
+      "/Users/ajosephides/Documents/Makers/week6/MakersBnB/spec/features/create_space_feature_spec.rb": [
+        1,
+        null,
         null,
         null,
         null,
         null,
-        null,
         1,
         1,
         null,
         1,
+        null,
+        1,
         1,
         1,
         1,
@@ -19,15 +22,29 @@
         1,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/ajosephides/Documents/Makers/week6/MakersBnB/spec/helpers/create_user.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1562062032
+    "timestamp": 1562064150
   }
 }
