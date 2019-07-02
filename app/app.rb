@@ -24,7 +24,7 @@ class MakersBnB < Sinatra::Base
     :name => params[:name],
     :email => params[:emailaddress],
     :password => params[:password])
-    redirect '/user/login' 
+    redirect '/user/login'
   end
 
   get '/user/login' do
@@ -32,7 +32,7 @@ class MakersBnB < Sinatra::Base
   end
 
   post '/user/login' do
-    user = User.first(:email => params[:emailaddress])
+    user = User.get(:email => params[:emailaddress])
     redirect "/users/#{user.id}"
   end
 
