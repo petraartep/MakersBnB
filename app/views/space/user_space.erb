@@ -7,8 +7,9 @@
   <title>User Space</title>
 </head>
 <body>
-  <br>
+  
   <% @user.spaces.each do |space| %>
+  <br>
   <%= space.name %>
   <%= space.description %>
   <%= space.price %>
