@@ -30,14 +30,34 @@ class MakersBnB < Sinatra::Base
   end
 
   post '/user/login' do
-    user = User.first(params[:emailaddress])
-    p user
-    redirect "/users/#{user.id}"
+    user = User.first(:email => params[:emailaddress])
+    redirect "/user/#{user.id}"
   end
 
-  get '/users/:user_id' do
+  get '/user/:user_id' do
     @user = User.get(params[:user_id])
     erb :userpage
+  end
+
+  get  '/user/:user_id/space/new' do
+      @user = User.get(params[:user_id])
+      erb :"/space/new"
+    end
+
+  post '/user/:user_id/space/new' do
+    user = User.get(params[:user_id])
+    user.spaces.create(name: params[:name],
+                      description: params[:description],
+                      price: params[:price],
+                      available_from: params[:available_from],
+                      available_to: params[:available_to])
+    redirect "/user/#{user.id}/space"
+  end
+
+
+  get '/user/:user_id/space' do
+    @user = User.get(params[:user_id])
+    erb :"/space/user_space"    
   end
 
   run! if app_file == $0

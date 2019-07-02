@@ -1,7 +1,50 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Celia/Desktop/projects/MakersBnB/spec/feature/log_in_spec.rb": [
+      "/Users/petra/Google Drive/projects/MakersBnB/spec/feature/create_space_feature_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/petra/Google Drive/projects/MakersBnB/spec/helpers/create_user.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/petra/Google Drive/projects/MakersBnB/spec/feature/log_in_spec.rb": [
         null,
         1,
         1,
@@ -24,7 +67,7 @@
         null,
         null
       ],
-      "/Users/Celia/Desktop/projects/MakersBnB/spec/feature/sign_up_spec.rb": [
+      "/Users/petra/Google Drive/projects/MakersBnB/spec/feature/sign_up_spec.rb": [
         1,
         1,
         1,
@@ -38,7 +81,7 @@
         null,
         null
       ],
-      "/Users/Celia/Desktop/projects/MakersBnB/spec/user_spec.rb": [
+      "/Users/petra/Google Drive/projects/MakersBnB/spec/feature/user_spec.rb": [
         null,
         null,
         1,
@@ -53,6 +96,6 @@
         null
       ]
     },
-    "timestamp": 1562073603
+    "timestamp": 1562075888
   }
 }
