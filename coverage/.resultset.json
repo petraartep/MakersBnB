@@ -1,0 +1,33 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/petra/Google Drive/projects/MakersBnB/spec/features/create_space_feature_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1562062032
+  }
+}
