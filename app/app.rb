@@ -60,5 +60,10 @@ class MakersBnB < Sinatra::Base
     erb :"/space/user_space"    
   end
 
+  get '/space' do
+    @spaces = Space.all
+    erb :"space/list"
+  end
+
   run! if app_file == $0
 end
