@@ -4,9 +4,9 @@ feature 'Sign up' do
     click_button 'sign up'
     expect(page).to have_content('Sign Up to MakersBnB')
     fill_in 'name', with: 'Joe Bloggs'
-    fill_in 'email address', with: 'example@hotmail.com'
+    fill_in 'emailaddress', with: 'example@hotmail.com'
     fill_in 'password', with: 'password'
     click_button 'sign up'
-    expect(page).to have_content('Sign up successful.')
+    expect(page).to have_content('Log in to MakersBnB')
   end
 end
