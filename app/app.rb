@@ -9,8 +9,6 @@ require_relative '../db/data_mapper_setup'
 
 class MakersBnB < Sinatra::Base
 
-  enable :sessions
-
   get '/' do
     erb :index
   end
@@ -32,7 +30,8 @@ class MakersBnB < Sinatra::Base
   end
 
   post '/user/login' do
-    user = User.get(:email => params[:emailaddress])
+    user = User.first(params[:emailaddress])
+    p user
     redirect "/users/#{user.id}"
   end
 
