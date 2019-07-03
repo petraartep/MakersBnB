@@ -8,10 +8,14 @@ $(document).ready(function() {
       console.log(data)
     });
   };
+
+  getSpaces();
+  
 });
 
 
-function SpaceListing() {
+
+// function SpaceListing() {
 
   
-};
+// };
