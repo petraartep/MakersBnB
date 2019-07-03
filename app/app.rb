@@ -5,9 +5,12 @@ require 'sinatra'
 require 'sinatra/base'
 require 'dm-postgres-adapter'
 require_relative '../db/data_mapper_setup'
+require 'json'
 
 
 class MakersBnB < Sinatra::Base
+
+  enable :sessions
 
   get '/' do
     erb :index
@@ -61,9 +64,18 @@ class MakersBnB < Sinatra::Base
   end
 
   get '/space' do
+
     @spaces = Space.all
     erb :"space/list"
   end
+
+
+  get '/api/space' do
+    spaces = Space.all
+    content_type :json
+    { spaces: spaces}.to_json
+  end
+
 
   run! if app_file == $0
 end
