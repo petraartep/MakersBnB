@@ -18,4 +18,20 @@ feature 'Log in' do
     click_button 'log in'
     expect(page).to have_content('Hello Joe Bloggs')
   end
+
+
+  scenario 'gets error message if login does not match a saved users details' do
+    visit('/')
+    click_button 'sign up'
+    fill_in 'name', with: 'Joe Bloggs'
+    fill_in 'emailaddress', with: 'example@hotmail.com'
+    fill_in 'password', with: 'password'
+    click_button 'sign up'
+    expect(current_path).to eq('/user/login')
+    expect(page).to have_content('Log in to MakersBnB')
+    fill_in 'emailaddress', with: 'example@hotmail.com'
+    fill_in 'password', with: 'dog'
+    click_button 'log in'
+    expect(page).to have_content('Error')
+  end
 end
