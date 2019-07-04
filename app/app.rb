@@ -13,7 +13,7 @@ class MakersBnB < Sinatra::Base
   enable :sessions
 
   get '/' do
-    erb :index, :layout => layout.erb
+    erb :index
   end
 
   get '/user/new' do

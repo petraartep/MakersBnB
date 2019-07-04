@@ -1,13 +1,22 @@
-<h1> Welcome to Makers BnB </h1>
 
-<h2> New here? </h2>
+  
+<div class="description">
+  <h1>Welcome to Makers BnB</h1>
+  <p> New here? </p>
+  
+  <button class="btn btn-outline-secondary btn-lg">
+  <form action="/user/new" method="get">
+    <input type="submit" value="sign up" />
+  </form>
+  </button>
 
-<form action="/user/new" method="get">
-  <input type="submit" value="sign up"/>
-</form>
+ 
+  <p> Old hand... </p>
+  <button class="btn btn-outline-secondary btn-lg">
+    <form action="/user/login" method="get">
+      <input type="submit" value="log in" />
+    </form>
+  </button>
 
-<h2> Old hand... </h2>
+</div>
 
-<form action="/user/login" method="get">
-  <input type="submit" value="log in"/>
-</form>
