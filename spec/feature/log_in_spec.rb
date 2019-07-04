@@ -13,6 +13,8 @@ feature 'Log in' do
 
     expect(current_path).to eq('/user/login')
     expect(page).to have_content('Log in to MakersBnB')
+    expect(page).to have_content('Email:')
+    expect(page).to have_content('Password:')
     fill_in 'emailaddress', with: 'example@hotmail.com'
     fill_in 'password', with: 'password'
     click_button 'log in'
