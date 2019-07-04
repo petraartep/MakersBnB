@@ -17,10 +17,15 @@ function Spaces(){};
 
 
   Spaces.prototype.filter_spaces = function(date_from, date_to, spaces){
+    var filtered = []
     var date_from = new Date(date_from);
     var date_to = new Date(date_to);
-    console.log(date_from + date_to);
-  
+    spaces.forEach(function(space){
+      if(new Date(space["available_from"]) <= date_from & new Date(space["available_to"]) >= date_to){
+        filtered.push(space)
+      }
+    })
+    return filtered
   }
 
 
