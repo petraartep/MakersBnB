@@ -1,6 +1,6 @@
 require_relative '../helpers/create_user'
 
-# As a user, letting a property 
+# As a user, letting a property
 # So that I can list a space
 # I need to be able create a space
 
@@ -22,6 +22,8 @@ feature 'create a space' do
     expect(page).to have_content("100")
     expect(page).to have_content("2019-07-02")
     expect(page).to have_content("2019-09-02")
-
+    
+    click_button('Back to your homepage')
+    expect(current_path).to eq('/user/1')
   end
 end

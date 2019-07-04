@@ -33,8 +33,12 @@ class MakersBnB < Sinatra::Base
   end
 
   post '/user/login' do
-    user = User.first(:email => params[:emailaddress])
-    redirect "/user/#{user.id}"
+    user = User.first(:email => params[:emailaddress], :password => params[:password])
+    if user.nil?
+      erb :error
+    else
+      redirect "/user/#{user.id}"
+    end
   end
 
   get '/user/:user_id' do
@@ -60,7 +64,7 @@ class MakersBnB < Sinatra::Base
 
   get '/user/:user_id/space' do
     @user = User.get(params[:user_id])
-    erb :"/space/user_space"    
+    erb :"/space/user_space"
   end
 
   get '/space' do

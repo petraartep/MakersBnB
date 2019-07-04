@@ -1,8 +1,11 @@
+<h1> Tell us about your space... </h1>
+
+
 <form action="/user/<%= @user.id %>/space/new" method="post">
   <input type="text" name="name" placeholder="Space name">
   <input type="text" name="description" placeholder="Description">
   <input type="number" name="price" placeholder="Price per night">
   <input type="date" name="available_from" placeholder="Available from">
-  <input type="date" name="available_to" palceholder="Available to">
+  <input type="date" name="available_to" placeholder="Available to">
   <input type="submit" value="Submit">
 </form>
