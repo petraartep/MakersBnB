@@ -2,6 +2,9 @@
 
 $(document).ready(function() {
 
+  $( "#date_from" ).datepicker();
+  $( "#date_to" ).datepicker();
+
  function getSpaces(){
     var url = '/api/space';
     $.get(url, function(data) {
@@ -21,11 +24,16 @@ $(document).ready(function() {
 
   getSpaces();
 
-  var dateFrom = $('#date_from').datepicker('getDate');
-  var dateTo = $('#date_to').datepicker('getDate');
 
-  console.log(dateFrom)
-  console.log(dateTo)
+  $( "#filter" ).click(function() {
+    var dateFrom = $('#date_from').datepicker('getDate');
+    var dateTo = $('#date_to').datepicker('getDate');
+    console.log(dateFrom)
+    console.log(dateTo)
+  });
+
+
+
 
 
 });
