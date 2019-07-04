@@ -2,13 +2,11 @@
 
 $(document).ready(function() {
 
-  var spaces;
-
-  function getSpaces(){
+ function getSpaces(){
     var url = '/api/space';
     $.get(url, function(data) {
-      spaces = data.spaces;
-      printSpaces(spaces);
+      this.spaces = data.spaces;
+      printSpaces(this.spaces);
     });
   };
 
@@ -19,6 +17,7 @@ $(document).ready(function() {
       <a href=\"space/"+ spaces[i]["id"] + "\"><button type=\"button\">Details</button></a>");
    }
   }
+
 
   getSpaces();
 
