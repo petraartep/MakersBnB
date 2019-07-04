@@ -23,6 +23,6 @@ feature 'navigate_from_user_homepage' do
     fill_in 'password', with: 'password'
     click_button 'log in'
     click_button 'View your spaces'
-    expect(current_path).to eq('/user/6/spaces')
+    expect(current_path).to eq('/user/6/space')
   end
 end
