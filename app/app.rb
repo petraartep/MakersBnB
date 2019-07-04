@@ -67,6 +67,12 @@ class MakersBnB < Sinatra::Base
     erb :"space/list"
   end
 
+  get '/space/:space_id' do
+    @space = Space.get(params[:space_id])
+  
+    erb :"space/space"
+  end
+
   get '/api/space' do
     spaces = Space.all
     content_type :json
