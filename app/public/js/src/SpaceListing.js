@@ -21,5 +21,12 @@ $(document).ready(function() {
 
   getSpaces();
 
+  var dateFrom = $('#date_from').datepicker('getDate');
+  var dateTo = $('#date_to').datepicker('getDate');
+
+  console.log(dateFrom)
+  console.log(dateTo)
+
+
 });
 
