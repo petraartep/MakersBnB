@@ -34,7 +34,7 @@ class MakersBnB < Sinatra::Base
       erb :"/user/login"
     end
 
-    post '/user' do
+    post '/user/login' do
       user = User.first(:email => params[:emailaddress], :password => params[:password])
       p user.id
       if user.nil?

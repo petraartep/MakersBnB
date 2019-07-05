@@ -4,7 +4,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	padding: 0;
 	margin: 0;
-	background: #ffffff;
+	background: #666;
 }
 
 
@@ -50,7 +50,7 @@ body {
 .description {
 	left: 50%;
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	transform: translate(-50%, -55%);
 	text-align: center;
 }
@@ -79,32 +79,32 @@ body {
 	color: #000;
 }
 
-.space-description {
+.space {
 	left: 50%;
 	position: absolute;
-	top: 25%;
+	top: 50%;
 	transform: translate(-50%, -55%);
 	text-align: center;
 }
 
-.space-description h1 {
+.space h1 {
 	color: #ff5960;
 }
 
-.space-description p {
+.space p {
 	color: #fff;
 	font-size: 1.3rem;
 	line-height: 1.5;
 }
 
-.space-description button {
+.space button {
 	border: 1px solid #FF5960;
 	background: #FF5960;
 	border-radius: 10;
 	color: #fff;
 }
 
-.space-description button:hover {
+.space button:hover {
 	border: 2px solid #fff;
 	background: #fff;
 	color: #000;
@@ -189,24 +189,53 @@ body {
 
 }
 
+
+section {
+    position: relative;
+    background-color: transparent !important;
+}
+
+section .img {
+    position: absolute;
+    left:0; top:0;
+    background-size: cover;
+    min-height: 768px;
+    width: 100%;
+    opacity: 0.45;
+    background-image: url("http://i.imgur.com/eFMDsVA.jpg");
+    z-index: -1;
+}
+
+section .container {
+    background-color: transparent;
+}
+
+section .container .row {
+    padding: 1.5em;
+}
+.jumbotron {
+		 background-color: gray}
+		 
+
 .transbox {
-	width: 320px;
+	width: 600px;
   height: 420px;
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
-	top: 400%;
+	top: 40%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
-	padding: 50px 20px;
+	padding: 20px 20px;
+	overflow-y: scroll;
 }
 
-.house {
+/* .house {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     position: absolute;
     top: -50px;
     left: calc(50% - 50px);
-}
+} */
