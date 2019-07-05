@@ -201,4 +201,3 @@ I need to be able to see only available and pending spaces.
 - We had an overall layout page which acted as a template for all our web pages and we also have a style sheet for individual elements
 - We also made a logo using Photopea which playfully apes the airbnb logo
 
-![png](app/public/images/newlogo.png)
