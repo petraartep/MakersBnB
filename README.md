@@ -21,7 +21,6 @@
 |<img src='https://user-images.githubusercontent.com/23095774/60453519-4400b500-9c29-11e9-9607-7055ee8d4c02.png' width='40'> |Sinatra |
 |<img src='https://user-images.githubusercontent.com/23095774/60453517-4400b500-9c29-11e9-87e5-904cb52eb052.png' width='40'> |RSpec |
 |<img src='https://user-images.githubusercontent.com/23095774/60465940-3ad41000-9c4a-11e9-9284-d438b9f6f1fb.png' width='40'> |Git|
-|<img src='https://user-images.githubusercontent.com/23095774/60466023-6eaf3580-9c4a-11e9-9f4d-f3316edee07a.png' width='40'> |Travis CI|
 |<img src='https://user-images.githubusercontent.com/23095774/60453516-4400b500-9c29-11e9-8bf3-54ba3df01a8d.png' width='40'> |PostgreSQL |
 |<img src='https://user-images.githubusercontent.com/23095774/60455502-71039680-9c2e-11e9-9d01-08f0a3f68637.png' width='40'> |Capybara |    
 |<img src='https://user-images.githubusercontent.com/23095774/60455512-7660e100-9c2e-11e9-826c-785c83b16235.gif' width='40'> |DataMapper |
