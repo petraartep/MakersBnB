@@ -8,47 +8,43 @@
 </head>
 <body>
 
-<div class="description">
-  <p>
+<div class="space-description">
+<p>
   <h1> All your spaces </h1>
-  </p>
+</p>
+<p>
+  <div class="transbox">
+    <p>
+      <img src="/images/house.png" class="house">
+          <% @user.spaces.each do |space| %>
+          <h5><%= space.name %>: </h5>
+          <b>Description:</b> <%= space.description %>
+          <br>
+          <b>Price:</b> £<%= space.price %>
+          <br>
+          <b>Available from:</b> <%= space.available_from %>
+          <br>
+          <b>Available to:</b> <%= space.available_to %>
+          <br>
+          <% end %>
+          <br>
+      </p>
+      </p>
 
 
-  
+
+
+
+
+
+    <!-- <form action="/user/<%= @user.id %>" method="get"> -->
+
+    <a href="/user/<%= @user.id %>" class="btn btn-danger" role="button">Back to your homepage</a>
+
+  </div>
+
 </div>
 
-<div class="card bg-light mb-3" style="max-width: 18rem;">
-  <div class="card-header">Your space</div>
-  <div class="card-body">
-    <h5 class="card-title">Light card title</h5>
-    <p class="card-text">
-        <% @user.spaces.each do |space| %>
-        <h5><%= space.name %>: </h5>
-        <b>Description:</b> <%= space.description %>
-        <br>
-        <b>Price:</b> £<%= space.price %>
-        <br>
-        <b>Available from:</b> <%= space.available_from %>
-        <br>
-        <b>Available to:</b> <%= space.available_to %>
-        <br>
-        <% end %>
-        <br>
-
-      
-    </p>
-
-
-
-
-
-
-
-  <!-- <form action="/user/<%= @user.id %>" method="get"> -->
-
-  <a href="/user/<%= @user.id %>" class="btn btn-danger" role="button">Back to your homepage</a>
-  </form>
-</div>
 
 </body>
 </html>
