@@ -21,7 +21,7 @@ $(document).ready(function() {
     for (var i = 0; i < spaces.length; i++) {
       $('#space_listing').append("<h5>" + spaces[i]["name"] + "</h5>\
       <b>Description: </b>" + spaces[i]["description"] + "<br><b> Price:</b >  £" + spaces[i]["price"] + " \
-      <br><a href=\"space/"+ spaces[i]["id"] + "\"><button type=\"button\" class=\"btn btn-danger btn-sm\">Details</button></a>");
+      <br><a href=\"space/"+ spaces[i]["id"] + "\"><button type=\"button\" class=\"btn btn-danger btn-sm\">Details</button></a><br><br>");
     }
   }
 

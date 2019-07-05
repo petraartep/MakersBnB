@@ -53,6 +53,7 @@ body {
 	top: 50%;
 	transform: translate(-50%, -55%);
 	text-align: center;
+	color: #fff
 }
 
 
@@ -219,7 +220,7 @@ section .container .row {
 
 .transbox {
 	width: 600px;
-  height: 420px;
+  height: 800px;
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
 	top: 40%;
