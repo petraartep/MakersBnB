@@ -1,0 +1,12 @@
+
+<div class="description">
+
+  <p>
+    <h1> Hello <%= @user.name %> </h1>
+    <p> From here you can search for a property or list one of your own </p>
+  </p>
+
+
+  <a href="/user/<%= @user.id %>/space/new" class="btn btn-danger btn-lg" role="button">Add space</a>
+  <a href="/user/<%= @user.id %>/space" class="btn btn-danger btn-lg" role="button">View your spaces</a> 
+</div>

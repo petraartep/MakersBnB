@@ -8,11 +8,34 @@
 </head>
 <body>
 
-  <%= @space.name %>
-  <%= @space.description %>
-  <%= @space.price %>
-  <%= @space.available_from %>
-  <%= @space.available_to %>
-  
+<div class="space">
+
+  <div class="transbox">
+
+    <h1><%= @space.name %>  </h1>
+    <br>
+    <p>
+      <b>Description:</b> <%= @space.description %>
+      <br>
+      <b>Price:</b> £<%= @space.price %>
+
+      <div class="input-group input-daterange">
+        <input type="date" name="available_from" class="form-control">
+        <div class="input-group-addon"></div>
+        <input type="date" name="available_to" class="form-control">
+      </div>
+
+
+      <br>
+      <br>
+      <input type="submit" class="btn btn-danger" role="button" value="Request" />
+
+
+      <br>
+    </p>
+  </div>
+  </div>
+
 </body>
 </html>
+

@@ -1,11 +1,37 @@
-<h1> Tell us about your space... </h1>
 
 
-<form action="/user/<%= @user.id %>/space/new" method="post">
-  <input type="text" name="name" placeholder="Space name">
-  <input type="text" name="description" placeholder="Description">
-  <input type="number" name="price" placeholder="Price per night">
-  <input type="date" name="available_from" placeholder="Available from">
-  <input type="date" name="available_to" placeholder="Available to">
-  <input type="submit" value="Submit">
-</form>
+<div class="description">
+
+  <p>
+  <h1> Tell us about your space... </h1>
+  </p>
+
+ <form action="/user/<%= @user.id %>/space/new" method="post">
+    <div class="form-group">
+      <label for="exampleInputSpaceName" class="text-white bg-dark">
+      </label>
+      <input type="name" class="form-control" id="exampleInputName" name="name"
+        placeholder="Space name">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputDescription" class="text-white bg-dark"></label>
+      <input type="description" class="form-control" id="exampleInputDescription" name="description"
+        placeholder="Description">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPrice" class="text-white bg-dark"></label>
+      <input type="price" class="form-control" id="exampleInputPrice" name="price" placeholder="Price">
+    </div>
+    
+<div class="input-group input-daterange">
+    <input type="date" name="available_from" class="form-control">
+    <div class="input-group-addon"></div>
+    <input type="date" name="available_to"  class="form-control">
+</div>
+
+<br>
+<br>
+<input type="submit" class="btn btn-danger" role="button" value="Submit" />
+
+  </form>
+</div>

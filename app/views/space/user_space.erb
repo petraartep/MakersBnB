@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>User Space</title>
 </head>
+
 <body>
 
-  <h1> All your spaces </h1>
+<div class="space">
 
-  <% @user.spaces.each do |space| %>
-  <h2><%= space.name %>: </h2>
-  <b>Description:</b> <%= space.description %>
-  <br>
-  <b>Price:</b> £<%= space.price %>
-  <br>
-  <b>Available from:</b> <%= space.available_from %>
-  <br>
-  <b>Available to:</b> <%= space.available_to %>
-  <br>
-  <% end %>
-  <br>
+<div class="transbox">
 
-  <form action="/user/<%= @user.id %>" method="get">
-    <input type="submit" value="Back to your homepage"/>
-  </form>
+<h1> All your spaces </h1>        
+<br>
+<p>
+        <% @user.spaces.each do |space| %>
+        <h5><%= space.name %>: </h5>
+        <b>Description:</b> <%= space.description %>
+        <br>
+        <b>Price:</b> £<%= space.price %>
+        <br>
+        <b>Available from:</b> <%= space.available_from %>
+        <br>
+        <b>Available to:</b> <%= space.available_to %>
+        <br>
+        <br>
+        <% end %>
+        <br>
+        </p>
+<a href="/user/<%= @user.id %>" class="btn btn-danger" role="button">Back to your homepage</a>
+</div>
 
+</div>
+</div>
+
+</div>
 </body>
 </html>
