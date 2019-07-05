@@ -55,6 +55,7 @@ body {
 	text-align: center;
 }
 
+
 .description h1 {
 	color: #ff5960;
 }
@@ -73,6 +74,37 @@ body {
 }
 
 .description button:hover {
+	border: 2px solid #fff;
+	background: #fff;
+	color: #000;
+}
+
+.space-description {
+	left: 50%;
+	position: absolute;
+	top: 25%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.space-description h1 {
+	color: #ff5960;
+}
+
+.space-description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.space-description button {
+	border: 1px solid #FF5960;
+	background: #FF5960;
+	border-radius: 10;
+	color: #fff;
+}
+
+.space-description button:hover {
 	border: 2px solid #fff;
 	background: #fff;
 	color: #000;
@@ -142,17 +174,39 @@ body {
 		transform: none;
 		text-align: center;
 	}
-	
+
 	.description h1 {
 		font-size: 2em;
 	}
-	
+
 	.description p {
 		font-size: 1.2rem;
 	}
-	
+
 	.features {
 		margin: 0;
 	}
 
+}
+
+.transbox {
+	width: 320px;
+  height: 420px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 400%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 50px 20px;
+}
+
+.house {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
 }
