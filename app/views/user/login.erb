@@ -1,10 +1,10 @@
-<div class="description">
+<!-- <div class="description">
 
   <p>
     <h1>Log in to Makers BnB</h1>
   </p>
 
-  <form>
+  <form method='post' action='/user'>
     <div class="form-group">
       <label for="exampleInputEmail1" class="text-white bg-dark">Email address</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -15,7 +15,23 @@
       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
     </div>
   
-    <a href="/user/new" class="btn btn-danger" role="button">Login</a>
+    <a href="/user" class="btn btn-danger" role="button">Login</a>
   </form>
-</div>
+</div> -->
 
+<div class="description">
+<p><h1> Log in to MakersBnB </h1></p>
+
+<form action="/user/login" method="post">
+  <div class="form-group">
+  <label for="exampleInputEmail1" class="text-white bg-dark">Email address</label>
+  <input type="email" class="form-control"  id="exampleInputEmail1" aria-describedby="emailHelp"
+  name="emailaddress" placeholder="example@hotmail.com" />
+    
+  <div class="form-group">
+      <label for="exampleInputPassword1" class="text-white bg-dark">Password</label>
+      <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+  <input type="submit" class="btn btn-danger" value="log in" />
+</form>
+</div>

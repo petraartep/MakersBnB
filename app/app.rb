@@ -17,7 +17,7 @@ class MakersBnB < Sinatra::Base
   end
 
   get '/user/new' do
-    erb :signup
+    erb :"/user/signup"
   end
 
   post '/users' do
@@ -28,23 +28,26 @@ class MakersBnB < Sinatra::Base
     redirect '/user/login'
   end
 
-  get '/user/login' do
-    erb :"/user/login"
-  end
+  # redirect or show userpage 
 
-  post '/user/login' do
-    user = User.first(:email => params[:emailaddress], :password => params[:password])
-    if user.nil?
-      erb :"/user/error"
-    else
-      redirect "/user/#{user.id}"
+    get '/user/login' do
+      erb :"/user/login"
     end
-  end
 
-  get '/user/:user_id' do
-    @user = User.get(params[:user_id])
-    erb :"/user/userpage"
-  end
+    post '/user/login' do
+      user = User.first(:email => params[:emailaddress], :password => params[:password])
+      p user.id
+      if user.nil?
+        erb :"/user/error"
+      else
+        redirect "/user/#{user.id}"
+      end
+    end
+
+    get '/user/:user_id' do
+      @user = User.get(params[:user_id])
+      erb :"/user/userpage"
+    end
 
   get  '/user/:user_id/space/new' do
       @user = User.get(params[:user_id])
