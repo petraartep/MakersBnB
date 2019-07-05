@@ -8,6 +8,7 @@ function Spaces(){};
 
 
   Spaces.prototype.printSpaces = function(spaces){
+    $("#space_listing").empty();
     for (var i = 0; i < spaces.length; i++) {
       $('#space_listing').append("<h1>" + spaces[i]["name"] + "</h>\
       <p>" + spaces[i]["description"] + " £" + spaces[i]["price"] + "</p> \
