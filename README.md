@@ -32,7 +32,7 @@
 |<img src='https://user-images.githubusercontent.com/23095774/60464708-3f4af980-9c47-11e9-9528-f3a17f0f1141.png' width='40'> |HTML |
 |<img src='https://user-images.githubusercontent.com/23095774/60453511-43681e80-9c29-11e9-874a-e9d56cc646bf.png' width='40'> |CSS |
 |<img src='https://user-images.githubusercontent.com/23095774/60453515-43681e80-9c29-11e9-98c9-601763345265.png' width='40'> |Javascript |  
-
+|<img src='https://user-images.githubusercontent.com/23095774/60717396-8f60df00-9f19-11e9-9c18-ceb8d49ad830.png' width='40'> |Bootstrap|  
 
 |   |Production |
 |:-----: | :-------:|
