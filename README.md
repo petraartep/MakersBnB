@@ -202,11 +202,3 @@ I need to be able to see only available and pending spaces.
 - We also made a logo using Photopea which playfully apes the airbnb logo
 
 ![png](app/public/images/newlogo.png)
-
-----
-
-## Reflections
-
-### Main success
-### Main challenge
-### Main learning
