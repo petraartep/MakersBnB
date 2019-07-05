@@ -5,7 +5,7 @@
   <h1> Tell us about your space... </h1>
   </p>
 
-  <form>
+ <form action="/user/<%= @user.id %>/space/new" method="post">
     <div class="form-group">
       <label for="exampleInputSpaceName" class="text-white bg-dark">Name
       </label>
@@ -30,6 +30,7 @@
 
 <br>
 <br>
-  <a href="/user/<%= @user.id %>/space/new" class="btn btn-danger" role="button">Submit</a>
+<input type="submit" class="btn btn-danger" class="btn btn-danger" role="button" value="Submit" />
+
   </form>
 </div>
