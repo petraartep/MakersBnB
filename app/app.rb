@@ -13,7 +13,7 @@ class MakersBnB < Sinatra::Base
   enable :sessions
 
   get '/' do
-    erb :index
+    erb :index, :layout => :layout
   end
 
   get '/user/new' do
@@ -29,13 +29,13 @@ class MakersBnB < Sinatra::Base
   end
 
   get '/user/login' do
-    erb :login
+    erb :"/user/login"
   end
 
   post '/user/login' do
     user = User.first(:email => params[:emailaddress], :password => params[:password])
     if user.nil?
-      erb :error
+      erb :"/user/error"
     else
       redirect "/user/#{user.id}"
     end
@@ -43,7 +43,7 @@ class MakersBnB < Sinatra::Base
 
   get '/user/:user_id' do
     @user = User.get(params[:user_id])
-    erb :userpage
+    erb :"/user/userpage"
   end
 
   get  '/user/:user_id/space/new' do

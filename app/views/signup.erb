@@ -1,11 +1,31 @@
-<h1> Sign Up to MakersBnB </h1>
+<div class="description">
 
-<form action="/users" method="post">
-  <h2> Name: </h2>
-  <input type="text" name="name" placeholder="John Smith"/>
-  <h2> Email: </h2>
-  <input type="email" name="emailaddress" placeholder="example@hotmail.com" />
-  <h2> Password: </h2>
-  <input type="password" name="password" />
-  <input type="submit" value="sign up" />
-</form>
+  <p>
+    <h1>Sign up to Makers BnB</h1>
+  </p>
+
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="text-white bg-dark">Name
+      </label>
+      <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp"
+        placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="text-white bg-dark">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="text-white bg-dark">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    
+    <a href="/user/login" class="btn btn-primary" role="button">Submit</a>
+  </form>
+</div>
+
+
+
+
+
