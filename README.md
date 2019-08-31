@@ -147,11 +147,9 @@ I need to be able to see only available and pending spaces.
 
 <p align = 'center'>
 <img width="600" src="https://user-images.githubusercontent.com/23095774/64069927-a9364e00-cc4c-11e9-89a1-b995c58646af.png">  
-<img width="600" src="(https://user-images.githubusercontent.com/23095774/64069861-0b8e4f00-cc4b-11e9-90ca-67df3217f26c.png">
+<img width="600" src="https://user-images.githubusercontent.com/23095774/64069861-0b8e4f00-cc4b-11e9-90ca-67df3217f26c.png">
 </p>
 
-
-//GIF OF SIGN UP
 
 ### Log in
 - Either through signing up or clicking the login button on the index page you can end up of the login page `get '/user/login'`
@@ -197,7 +195,7 @@ I need to be able to see only available and pending spaces.
 - Using the function `getSpaces` the data is retrieved from Spaces database and displayed
 
 <p align = 'center'>
-<img width="600" src=" https://user-images.githubusercontent.com/23095774/64069855-0af5b880-cc4b-11e9-9ae4-dd1127bf1913.png">
+<img width="600" src="https://user-images.githubusercontent.com/23095774/64069855-0af5b880-cc4b-11e9-9ae4-dd1127bf1913.png">
 </p>
 
 ### Filtering spaces by date
@@ -205,8 +203,8 @@ I need to be able to see only available and pending spaces.
 - Because we have used javascript the page can filter results without having to reload
 
 <p align = 'center'>
-<img width="600" src="(https://user-images.githubusercontent.com/23095774/64069925-a89db780-cc4c-11e9-8002-129778f97246.png">
-<img width="600" src="(https://user-images.githubusercontent.com/23095774/64069923-a89db780-cc4c-11e9-99b5-7b85582efe46.png">  
+<img width="600" src="https://user-images.githubusercontent.com/23095774/64069925-a89db780-cc4c-11e9-8002-129778f97246.png">
+<img width="600" src="https://user-images.githubusercontent.com/23095774/64069923-a89db780-cc4c-11e9-99b5-7b85582efe46.png">  
 </p>
 
 
