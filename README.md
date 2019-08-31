@@ -146,8 +146,8 @@ I need to be able to see only available and pending spaces.
 - The program then redirects you to the login page
 
 <p align = 'center'>
-<img width="600" src="https://user-images.githubusercontent.com/23095774/64069927-a9364e00-cc4c-11e9-89a1-b995c58646af.png">  
-<img width="600" src="https://user-images.githubusercontent.com/23095774/64069861-0b8e4f00-cc4b-11e9-90ca-67df3217f26c.png">
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64069927-a9364e00-cc4c-11e9-89a1-b995c58646af.png">  
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64069861-0b8e4f00-cc4b-11e9-90ca-67df3217f26c.png">
 </p>
 
 
@@ -162,10 +162,9 @@ I need to be able to see only available and pending spaces.
   - if the user input is nil then the user is redirected to an error page `erb: error` which tells them they have a login error and gives them the option to try again.
 
 <p align = 'center'>
-<img width="600" src="https://user-images.githubusercontent.com/23095774/64069859-0af5b880-cc4b-11e9-9fa3-1459ee77dae4.png">
-<img width="600" src="https://user-images.githubusercontent.com/23095774/64069929-a9364e00-cc4c-11e9-8390-d50fe15f7e57.png">
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64069859-0af5b880-cc4b-11e9-9fa3-1459ee77dae4.png">
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64069929-a9364e00-cc4c-11e9-8390-d50fe15f7e57.png">
 </p>
-
 
 
 ### Adding a new space
@@ -177,7 +176,7 @@ I need to be able to see only available and pending spaces.
 - The user will be redirected to get `/user/#{user.id}/space` where you will see the space you've created
 
 <p align = 'center'>
-<img width="600" src="https://user-images.githubusercontent.com/23095774/64069860-0b8e4f00-cc4b-11e9-82fc-9c9640fa7468.png">
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64069860-0b8e4f00-cc4b-11e9-82fc-9c9640fa7468.png">
 </p>
 
 ### Viewing all spaces a particular user has added
@@ -185,7 +184,7 @@ I need to be able to see only available and pending spaces.
 - These are outputted as a hash which we then iterate through printing out all the details for each data entry
 
 <p align = 'center'>
-<img width="600" src="https://user-images.githubusercontent.com/23095774/64069930-a9cee480-cc4c-11e9-8978-6b38c6fa683a.png">
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64069930-a9cee480-cc4c-11e9-8978-6b38c6fa683a.png">
 </p>
 
 ### Viewing all spaces from all users
@@ -195,7 +194,7 @@ I need to be able to see only available and pending spaces.
 - Using the function `getSpaces` the data is retrieved from Spaces database and displayed
 
 <p align = 'center'>
-<img width="600" src="https://user-images.githubusercontent.com/23095774/64069855-0af5b880-cc4b-11e9-9ae4-dd1127bf1913.png">
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64069950-92dcc200-cc4d-11e9-98ed-25e6427a7e4b.png">
 </p>
 
 ### Filtering spaces by date
@@ -203,8 +202,8 @@ I need to be able to see only available and pending spaces.
 - Because we have used javascript the page can filter results without having to reload
 
 <p align = 'center'>
-<img width="600" src="https://user-images.githubusercontent.com/23095774/64069925-a89db780-cc4c-11e9-8002-129778f97246.png">
-<img width="600" src="https://user-images.githubusercontent.com/23095774/64069923-a89db780-cc4c-11e9-99b5-7b85582efe46.png">  
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64069925-a89db780-cc4c-11e9-8002-129778f97246.png">
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64069923-a89db780-cc4c-11e9-99b5-7b85582efe46.png">  
 </p>
 
 
