@@ -145,6 +145,12 @@ I need to be able to see only available and pending spaces.
 - When you submit your details behind the scenes the program goes to the `post '/users'` route and takes the field inputs, which are accessible via params, and uses the `create` Datamapper syntax to make a new entry in the User table
 - The program then redirects you to the login page
 
+<p align = 'center'>
+<img width="600" src="https://user-images.githubusercontent.com/23095774/64069927-a9364e00-cc4c-11e9-89a1-b995c58646af.png">  
+<img width="600" src="(https://user-images.githubusercontent.com/23095774/64069861-0b8e4f00-cc4b-11e9-90ca-67df3217f26c.png">
+</p>
+
+
 //GIF OF SIGN UP
 
 ### Log in
@@ -157,10 +163,12 @@ I need to be able to see only available and pending spaces.
   -  if the user is not equal to nil, the user id(`user.id`) associated with this line of data is then used to make a dynamic route to that particular user's homepage(`/user/#{user.id}`)
   - if the user input is nil then the user is redirected to an error page `erb: error` which tells them they have a login error and gives them the option to try again.
 
+<p align = 'center'>
+<img width="600" src="https://user-images.githubusercontent.com/23095774/64069859-0af5b880-cc4b-11e9-9fa3-1459ee77dae4.png">
+<img width="600" src="https://user-images.githubusercontent.com/23095774/64069929-a9364e00-cc4c-11e9-8390-d50fe15f7e57.png">
+</p>
 
-// GIF OF SUCCESSFUL LOGIN
 
-// GIF OF UNSUCCESSFUL LOGIN
 
 ### Adding a new space
 
@@ -170,14 +178,17 @@ I need to be able to see only available and pending spaces.
 - When you do this, the program goes to the post `/user/:user_id/space/new`
 - The user will be redirected to get `/user/#{user.id}/space` where you will see the space you've created
 
-// GIF OF ADDING A NEW SPACE
-// GIF OF VIEWING YOUR SPACE
+<p align = 'center'>
+<img width="600" src="https://user-images.githubusercontent.com/23095774/64069860-0b8e4f00-cc4b-11e9-82fc-9c9640fa7468.png">
+</p>
 
 ### Viewing all spaces a particular user has added
 - On the route `/user/#{user.id}/space` we retrieve all data entries on the Space table which have the user id of the current user
 - These are outputted as a hash which we then iterate through printing out all the details for each data entry
 
-// GIF OF VIEWING SPACES FOR A PARTICULAR USER
+<p align = 'center'>
+<img width="600" src="https://user-images.githubusercontent.com/23095774/64069930-a9cee480-cc4c-11e9-8978-6b38c6fa683a.png">
+</p>
 
 ### Viewing all spaces from all users
 - On the route `/space` users can see all spaces listed by all users
@@ -185,13 +196,20 @@ I need to be able to see only available and pending spaces.
 - This erb file sends a query using ajax to an api `/api/space`
 - Using the function `getSpaces` the data is retrieved from Spaces database and displayed
 
-// GIF OF VIEWING ALL SPACES ADDED BY EVERYONE
+<p align = 'center'>
+<img width="600" src=" https://user-images.githubusercontent.com/23095774/64069855-0af5b880-cc4b-11e9-9ae4-dd1127bf1913.png">
+</p>
 
 ### Filtering spaces by date
 - On the `/space` page the query can take a specific date as a condition. If that date is higher than or equal to a data entries `available from` field, **AND** lower than or equal to its `available to` field it will be displayed
 - Because we have used javascript the page can filter results without having to reload
 
-// GIF OF FILTERING SPACES
+<p align = 'center'>
+<img width="600" src="(https://user-images.githubusercontent.com/23095774/64069925-a89db780-cc4c-11e9-8002-129778f97246.png">
+<img width="600" src="(https://user-images.githubusercontent.com/23095774/64069923-a89db780-cc4c-11e9-99b5-7b85582efe46.png">  
+</p>
+
+
 
 ----
 
